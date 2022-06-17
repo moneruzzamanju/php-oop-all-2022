@@ -2,8 +2,8 @@
 require_once 'Vehicle.php';
 
 class Car implements Vehicle{
-   public function details() 
+   public function details($noOfWheel) 
    {
-    return "Car has 6 wheels";
+    return "Car has $noOfWheel wheels";
    }
 }

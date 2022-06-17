@@ -2,4 +2,4 @@
 require_once 'Car.php';
 
 $car = new Car();
-echo $car->details();
+echo $car->details(16);
